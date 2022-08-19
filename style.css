@@ -1,0 +1,128 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+:root {
+    --title1-color: rgb(45, 151, 63);
+    --title2-color: rgb(56, 62, 155);
+}
+
+body {
+    background-image: url() ;
+    background-color: var(--title1-color);
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+header {
+    background: var(--title2-color);
+    padding: 1em;
+    box-shadow: 10px 5px 5px 10px black;
+}
+
+header h1{
+    
+    text-align: center;
+    font-size: 3em;
+}
+
+.pontuacao {
+    background-color: black;
+    border: solid white;
+    width: 25em;
+    font-size: 1.5em;
+    margin: 1em auto;
+    border-radius: 4px;
+    padding: 4em 5em;
+    position: relative;
+    text-align: center;
+    bottom: -14em;
+}
+.pontuacao span {
+    font-size: 2em;
+}
+.pontuacao .jogador {
+    border: solid rgb(253, 253, 253);
+    background: rgb(47, 49, 163);
+    padding: 0.2em;
+    font-size: 0.8em;
+    
+}
+
+.pontuacao #placaUsuário {
+    position: absolute;
+    top: 5.8em;
+    left: 8em;
+}
+
+.pontuacao #placaComputador{
+    position: absolute;
+    top: 5.8em;
+    right: 6em;
+}
+
+.resultado {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+.resultado p{
+    text-align: center;
+}
+.opções {
+    position: relative;
+left: 30em;
+top: -4em;
+}
+.opção{
+    display: block;
+    margin: 1em;
+} 
+
+.opções img{
+    background: var(--title2-color);
+    height: 7.3em;
+    width: 7.3em;
+    border-radius: 100px;
+    border: 4px solid white;
+}
+
+.opções img:hover {
+    background: rgb(5, 5, 4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#mensagemJogar {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0.5em;
+    position: relative;
+    top: -4em;
+}
+.tudo{
+position: relative;
+top: -7em;
+}
+#dh {
+    position: relative;
+    left: 105em;
+    top: -40em;
+    height: 100px;
+    width: 200px;
+}
+form{
+position: relative;
+top: 10em;
+display: inline-block;
+background-color: blue;
+width: 20%;
+border-radius: 10px;
+padding: 10px;
+}
+
+#inputnome{
+width: 30%;
+}
