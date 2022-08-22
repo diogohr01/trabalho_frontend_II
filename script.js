@@ -60,7 +60,7 @@ function game(escolhaJogador, escolhacomputador) {
      valorusuario.innerText = playerWin;
    
 }
-game()
+
 
 function main (){
     pedra.addEventListener('click',function() {
@@ -79,6 +79,9 @@ function main (){
 main();
 
 function limpar(){
+    let novojogo = confirm('tem certeza?')
+    if(novojogo){
     document.location.reload(true);
+    }
 }
 
