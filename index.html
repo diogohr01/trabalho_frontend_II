@@ -12,16 +12,13 @@
         <h1>Pedra Papel Tesoura</h1>
     </header>
 <div class="tudo">
-    <form>
-        <label for="input"> Digite a quantidade de rodadas que você deseja jogar: </label>
-        <input type="text" id="inputnome">
-        <input type="submit" id="enviar">
-    </form>
+    <div class="bar">
+     <button onclick="limpar()">Reiniciar Jogo</button></div>
     <div class="pontuacao">
        
  <div id="placaUsuário" class="jogador">Usuário</div>
         <div id="placaComputador" class="jogador">Computador</div>
-        <span id="pontosUsuário">0</span>:<span id="pontosComputador">0</span>
+        <span id="pontosUsuario">0</span>:<span id="pontosComputador">0</span>
     </div>
 
     <div class="resultado">
@@ -30,13 +27,13 @@
 
     <div class="opções">
         <div class="opção">
-            <img id="opçãoPedra" src="./imagens/pedra.png" alt="opção Pedra" onclick="apertar('pedra')" >
+            <img id="opçãoPedra" src="./imagens/pedra.png" alt="opção Pedra"  >
         </div>
         <div class="opção">
-            <img id="opçãoPapel" src="./imagens/papel.png" alt="opção Papel" onclick="apertar('papel')">
+            <img id="opçãoPapel" src="./imagens/papel.png" alt="opção Papel" >
         </div>
         <div class="opção">
-            <img id="opçãoTesoura" src="./imagens/tesoura.png" alt="opção Tesoura" onclick="apertar('tesoura')" >
+            <img id="opçãoTesoura" src="./imagens/tesoura.png" alt="opção Tesoura"  >
         </div>
     </div>
 

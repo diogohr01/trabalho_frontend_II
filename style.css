@@ -1,7 +1,7 @@
 * { margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+  
 }
 
 :root {
@@ -14,6 +14,8 @@ body {
     background-color: var(--title1-color);
     font-family: 'Lobster', cursive;
     color: white;
+   height: 100vh;
+   width: 100vw;
 }
 
 header {
@@ -108,8 +110,8 @@ top: -7em;
 }
 #dh {
     position: relative;
-    left: 105em;
-    top: -40em;
+    left: 0em;
+    top: -10em;
     height: 100px;
     width: 200px;
 }
@@ -125,4 +127,30 @@ padding: 10px;
 
 #inputnome{
 width: 30%;
+}
+
+button{
+    box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Lobster', cursive;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+    position: relative;
+    top: 10em;
+    left: 58em;
+    width: 200px;
+}
+button:hover{
+    opacity: 0.9;
+    background: linear-gradient(to bottom, #5A86FF, #335AD0);
+    border: 1px solid #7CAFFF;
+    box-shadow: 0px 1px 2px #000000;
 }
